@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Language" content="pt-br">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		
+		<link href="./css/registrocss.css" rel="stylesheet" type="text/css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+		<script type="text/javascript" src="./js/erroHandler/erroFormNull.js"></script>
+		<script type="text/javascript" src="./js/erroHandler/erroVerifSenha.js"></script>
+		<script type="text/javascript" src="./js/aguarde/aguarde.js"></script>
+
+		<script type="text/javascript" src="./js/registro/register.js"></script>
+		
+		<title>Registro</title>
+	</head>
+	<body>
+		<div id="bcg">
+			<img src="./img/login/background.jpg" class="imgBcg" id="bcgImgBlurred">
+			<img src="./img/login/background.jpg" class="imgBcg">
+		</div>
+		<div id="login">
+			<h1>REGISTRO</h1>
+			<div id="loginBcg">
+				<form name="registroForm" onsubmit="register()">
+					<span id="erro" style="position: relative; color: red; left: 5%"></span>
+					
+					<label for="nome" class="lblLogin" style="margin-top: 5%">Nome:</label> 
+					<br> 
+					<input type="text" name="nome" class="txtFormLogin" placeholder="Oscar Alho Pinto">
+					
+					
+					<label for="sexo" class="lblLogin">Sexo:</label> 
+					<br> 
+					<table style="position: relative; width: 80%; left: 10%">
+						<tr>
+							<th>
+								<input type="radio" name="sexo" value="M">
+								<label for="mas" class="lblRadioLogin">Masculino</label>
+							</th>
+							<th>
+								<input type="radio" name="sexo" value="F">
+								<label for="fem" class="lblRadioLogin">Feminino</label>
+							</th>
+							<th>
+								<input type="radio" name="sexo" value="O">
+								<label for="oth" class="lblRadioLogin">Outro</label>
+							</th>
+						</tr>
+					</table>
+					
+  					<label for="email" class="lblLogin" style="margin-top: 0px">Email:</label> 
+					<br> 
+					<input type="email" name="email" class="txtFormLogin" placeholder="nome@email.com"> 
+				
+					
+					<label for="tel" class="lblLogin">Telefone:</label> 
+					<br> 
+					<input type="tel" name="tel" placeholder="+55(24)96942-0777" class="txtFormLogin"> 
+					
+					
+					<label for="nasc" class="lblLogin">Data de nascimento:</label> 
+					<br> 
+					<input type="date" name="nasc" class="txtFormLogin"> 
+					
+					
+					<label for="senha" class="lblLogin">Senha:</label> 
+					<br> 
+					<input type="password" name="senha" class="txtFormLogin" minlength="6" placeholder="********">
+					
+					
+					<label for="senha2" class="lblLogin">Repetir senha:</label> 
+					<br> 
+					<input type="password" name="senha2" class="txtFormLogin" minlength="6" placeholder="********"> 
+					<br>
+					
+					<input type="submit" value="Registrar-se" name="entrar" id="btnLogin"> 
+					<label style="position: absolute; bottom: 7%; left: 31%">Já possui uma conta? 
+						<a href="./index.html">
+							Fazer login
+						</a>
+					</label>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

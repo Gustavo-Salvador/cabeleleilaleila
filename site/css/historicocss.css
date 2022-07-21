@@ -1,0 +1,44 @@
+#container {
+    padding-top: 80px;
+    max-height: 90%;
+}
+#btnBack {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    background-color: #F5D8B1;
+    border-color: #784B0F;
+    color: #784B0F;
+    border-radius: 4px;
+}
+#dataContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    background-color: oldlace !important;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 70px;
+}
+table {
+    margin-left: 5%;
+    width: 90%;
+    min-width: 500px;
+}
+th, td {
+    border: 1px solid black;
+    border-width: 1px !important;
+    text-align: center !important;
+}
+th {
+    background-color: moccasin !important;
+}
+td {
+    background-color: papayawhip;
+}
+p {
+    text-align: center;
+}

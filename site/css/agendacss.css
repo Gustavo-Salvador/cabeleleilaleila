@@ -1,0 +1,75 @@
+#container {
+    padding-top: 80px;
+    max-height: 90%;
+}
+#btnBack {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    background-color: #F5D8B1;
+    border-color: #784B0F;
+    color: #784B0F;
+    border-radius: 4px;
+}
+#explicacaoDiv {
+    display: flex;
+    position: absolute;
+    bottom: 1%;
+    left: 10px;
+    max-height: 9%;
+}
+#explicaçãoP {
+    font-size: 10;
+}
+
+body {
+    background-color: oldlace !important;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 70px;
+}
+table {
+    margin-left: 5%;
+    width: 95%;
+    min-width: 500px;
+}
+th, td {
+    border: 1px solid black;
+    border-width: 1px !important;
+    text-align: center !important;
+}
+th {
+    background-color: moccasin !important;
+}
+td {
+    background-color: papayawhip;
+}
+i {
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.invisibru {
+    width: 10%;
+    border-width: 0px !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    text-align: left !important;
+}
+.fa-trash-can {
+    color: red;
+}
+.fa-phone {
+    color: deepskyblue;
+}
+.fa-whatsapp {
+    color: #00e576;
+    font-size: 2.3em !important;
+    margin-top: 7px !important;
+}
+.contatIcon {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 2em;
+}

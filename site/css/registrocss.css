@@ -1,0 +1,72 @@
+#bcg {
+    top:0px;
+    overflow: hidden;
+    width: 100%;
+}
+#bcgImgBlurred {
+    width: 100% !important; 
+    filter: blur(20px);
+    margin-left: 0%;
+}
+#loginBcg{
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    top: 15%;
+    background-color:antiquewhite;
+    border-radius: 15px;
+}
+#login {
+    position: absolute;
+    height: 80%;
+    width: 30%;
+    margin-left: 35%;
+    top: 10%;
+}
+#btnLogin {
+    position: absolute;
+    width: 24%;
+    height: 8%;
+    bottom: 5%;
+    left: 5%;
+    background-color: #F5D8B1;
+    border-color: #784B0F;
+    color: #784B0F;
+    border-radius: 4px;
+}
+
+.imgBcg {
+    position: absolute;
+    filter: blur(4px);
+    top: 0px;
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+}
+.lblLogin {
+    position: relative;
+    display: inline-block;
+    margin-top: 8%;
+    left: 5%;
+    font-size: 1vw;
+}
+.lblRadioLogin {
+    position: relative;
+    font-size: 1vw;
+    left: 1%;
+}
+.txtFormLogin {
+    position: absolute;
+    left: 10%;
+    width: 85%;
+    height: 7%;
+}
+
+h1 {
+    position: relative;
+    font-size: 300%;
+    text-align: center;
+}
+th {
+    text-align: center;
+}

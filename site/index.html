@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Language" content="pt-br">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+
+		<link href="./css/indexcss.css" rel="stylesheet" type="text/css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		
+		<script type="text/javascript" src="./js/erroHandler/erroFormNull.js"></script>
+		<script type="text/javascript" src="./js/login/login.js"></script>
+		<script type="text/javascript" src="./js/aguarde/aguarde.js"></script>
+		
+		<title>Login</title>
+	</head>
+	<body>
+		<div id="bcg">
+			<img src="./img/login/background.jpg" class="imgBcg" id="bcgImgBlurred">
+			<img src="./img/login/background.jpg" class="imgBcg">
+		</div>
+		<div id="login">
+			<h1>LOGIN</h1>
+			<div id="loginBcg">
+				<form name="loginForm" onSubmit="return login()">
+					<span id="erro" style="position: relative; color: red; left: 5%"></span>
+  					<label for="email" class="lblLogin" style="top: 10%">Email:</label> <br> <br>
+					<input type="email" name="email" class="txtFormLogin" placeholder="nome@email.com"> <br> <br>
+					<label for="senha" class="lblLogin">Senha:</label> <br> 
+					<input type="password" name="senha" class="txtFormLogin" placeholder="********"> 
+					<input type="submit" value="Entrar" name="entrar" id="btnLogin"> 
+					<label style="position: absolute; bottom: 8%; left: 22%">Ainda não está cadastrado? 
+						<a href="./registro.html">
+							Registre-se
+						</a>
+					</label>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
