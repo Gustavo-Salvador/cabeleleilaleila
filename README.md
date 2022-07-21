@@ -1,8 +1,8 @@
-#Descrição do projeto
+# Descrição do projeto
 
-##Participante: Luiz Gustavo Fernandes Salvador
+## Participante: Luiz Gustavo Fernandes Salvador
 
-###Tecnologias utilizadas: 
+### Tecnologias utilizadas: 
 
 
 - **html** e **css** para o desing da pagina;
@@ -14,7 +14,7 @@
 - **xampp** para testes e simulação de um servidor na rede local;
 - **git** para armazenamento e compartilhamento do projeto.
 
-###Detalhes:
+### Detalhes:
 
 
 O projeto possui **9 páginas**, sendo elas:
